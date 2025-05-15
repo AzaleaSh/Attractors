@@ -26,7 +26,7 @@ The animation then starts showing the first path (white/green). When it reaches 
 This visual divergence here is the butterfly effect in action, it is due to the non-linear nature of the Lorenz equations:
 
 $$
-\begin{align*} \frac{dx}{dt} &= \sigma(y - x) \\ \frac{dy}{dt} &= x(\rho - z) - y \\ \frac{dz}{dt} &= xy - \beta z \end{align*}
+\begin{align*} \frac{dx}{dt} &= \sigma(y - x),  \\ \frac{dy}{dt} &= x(\rho - z) - y,  \\ \frac{dz}{dt} &= xy - \beta z \end{align*}
 $$
 
 Notice the terms like $xy$ and $xz$? These are non-linear terms. In a linear system, if you start two points very close, they'll typically stay close or their distance will grow slowly. But non-linear terms act like multipliers. They cause tiny initial differences to be *amplified exponentially* over time.
@@ -38,6 +38,8 @@ The exponential growth of the difference means that our inability to measure or 
 Watching the animation is interesting, but I wanted to quantify just how fast those two paths were separating. So, the next logical step was to calculate and plot the distance between the corresponding points on the green/white and pink trajectories over time, starting from the `round_point_index` where the pink path began.
 
 The resulting plot looks like this:
+
+![distance_time_graph](https://github.com/user-attachments/assets/814bd5ee-b5fd-4018-ad0b-37c93c56a63e)
 
 As you can see, the figure contains 6 subplots. Each subplot shows the distance over time for a simulation where the initial perturbation (the rounding) for the pink trajectory was different: rounding to 1, 2, 4, 6, 8, or 10 decimal places.
 
@@ -57,9 +59,10 @@ Simply put, a Fourier Transform takes a signal (like our distance-over-time data
 
 Here's the Fourier Transform plot:
 
+![fourier_transform_graph](https://github.com/user-attachments/assets/00dfc768-eb08-4e27-b655-ffd3f275a436)
 
 
-**Whatttt! What Does This Peak Mean?**
+### Whatttt! What Does This Peak Mean?
 
 Looking at the plot, there's a clear peak in the frequency spectrum, roughly between 1.25 and 1.50. This peak becomes more pronounced as the initial rounding (and thus the simulation time where the trajectories are still somewhat "related") increases.
 
@@ -73,7 +76,7 @@ Switching gears here, one cool aspect of this project was realizing how modular 
 
 To demonstrate this, I included another simulation of another interesting dynamical system: the **Halvorsen Attractor**. This system has a different set of equations but also exhibits chaotic behavior and has a unique strange attractor shape.
 
-
+https://github.com/user-attachments/assets/b7d5ab94-9427-4eca-ad38-938ec5cdc499
 
 The only change needed was defining a new function for the Halvorsen system's ODEs. 
 
