@@ -49,7 +49,7 @@ I believe that this goes back to the nature of the strange attractor. The trajec
 
 The oscillations in the distance reflect this dynamic. The distance increases as the trajectories move apart on a lobe or transition between lobes. It might decrease slightly or level off when the folding of the attractor brings previously separated parts of the trajectories closer together. It's not true system periodicity, though, or is it?
 
-## Finding the Rhythm of Separation - Fourier Analysis
+## Is there a Rhythm of Separation - Fourier Analysis
 
 The apparent oscillatory behavior in the distance plot was particularly intriguing to me. It made me wonder if there was some underlying frequency to the separation process. So intro Fourier Transform!
 
