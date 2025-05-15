@@ -3,7 +3,7 @@ Modeling attractors using dynamical systems, Python, and Matplotlib
 
 https://github.com/user-attachments/assets/8c5c095f-a232-4ee7-962b-31ff2d6db6fc
 
-Hello! This project was genuinely very fun with a lot of physics and mathematics concepts, specifically focusing on dynamical systems. I wanted to share the process and discoveries I made while modeling one of the most famous examples of deterministic chaos: the Lorenz Attractor.
+Hello! This project was genuinely very fun with a lot of physics and mathematics concepts, specifically focusing on dynamical systems. I wanted to share the process and discoveries I made while modeling one of the most famous examples of deterministic chaos: the Lorenz Attractor. I will preface with that I am a high school senior, there is high chance that I am mathematically incorrect.
 
 Developed by the meteorologist Edward Lorenz in the 1960s, this system uses three relatively simple differential equations, yet produces incredibly complex and beautiful non-deterministic behavior. I wrote this code in a Jupyter Notebook (`.ipynb`), which allowed me to visualize things interactively before exporting it all to this GitHub repository. If you want to follow along or run the code yourself, you'll need a few standard Python packages, which I'll list later.
 
@@ -69,6 +69,8 @@ Looking at the plot, there's a clear peak in the frequency spectrum, roughly bet
 This dominant frequency is very very fascinating! It could suggest that the oscillations in the distance between the trajectories are not just random wiggles but are happening with a characteristic frequency.
 
 Soooo, what could this frequency relate to? Since the trajectories are orbiting around the two attractors of the butterfly attractor and switching between the lobes, this peak frequency could likely correspond to the average frequency of these orbital motions or the switching frequency between the lobes. This is very very interesting, especially given that the system itself is entirely chaotic! So how in the world could there possibly exist any type of periodic motion? I don't know, I have plans to look at this closer specifically by variable, also seeing how the coeffecients effect this, as it is known that some combinations of coeffiecents can yield periodic or quasiperiodic behaviors.
+
+A quick note: I did test a few variables to ensure this was not an experimental error. I am not quite sure what this is.
 
 ## The Halvorsen System
 
