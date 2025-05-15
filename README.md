@@ -29,9 +29,7 @@ $$
 \begin{align*} \frac{dx}{dt} &= \sigma(y - x),  \\ \frac{dy}{dt} &= x(\rho - z) - y,  \\ \frac{dz}{dt} &= xy - \beta z \end{align*}
 $$
 
-Notice the terms like $xy$ and $xz$? These are non-linear terms. In a linear system, if you start two points very close, they'll typically stay close or their distance will grow slowly. But non-linear terms act like multipliers. They cause tiny initial differences to be *amplified exponentially* over time.
-
-The exponential growth of the difference means that our inability to measure or represent initial conditions with infinite precision makes long-term prediction impossible.
+This exponential growth of the difference means that our inability to measure or represent initial conditions with infinite precision makes long-term prediction impossible.
 
 ## Measuring the Separation - Distance vs. Time
 
