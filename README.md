@@ -1,7 +1,9 @@
 # Modeling Attractors and Chaos Theory
 Modeling attractors using dynamical systems, Python, and Matplotlib
 
-Hi all this was a fun little project. Essentially the code here is made to model the famous Lorenz Attractor. Developed by Edward Lorenz in the 1960s, this system of three relatively simple differential equations is a perfect example of deterministic chaos. I wrote this in a Juniper Notebook (.ipynb) and exported it to Github. You will need a few packages if you plan to reproduce this. 
+https://github.com/user-attachments/assets/8c5c095f-a232-4ee7-962b-31ff2d6db6fc
+
+Essentially the code here is made to model the famous Lorenz Attractor. Developed by Edward Lorenz in the 1960s, this system of three relatively simple differential equations is a perfect example of deterministic chaos. I wrote this in a Juniper Notebook (.ipynb) and exported it to Github. You will need a few packages if you plan to reproduce this. 
 
 The Lorenz system is a simplified mathematical model based on atmospheric convection. Despite its simplicity, its behavior is complex and unpredictable over longer periods. A key characteristic it demonstrates is sensitivity to initial conditions. This is also more popularly termed as the "butterfly effect" – the idea that a very small change in the initial state of the system can lead to drastically different outcomes over time.
 
@@ -19,6 +21,10 @@ The key visual takeaway is that while the pink and green paths branches off from
 ## The video files!
 
 In this repository there are two video files: of course the Lorenz attractor, and I have also included the Halvorsen attractor, which is modeled using a different set of dynamical systems, where the only change was a different 'def lorenz_system(state)'. So I guess you could say this code is modular.
+
+## The Halvorsen Attractor
+
+https://github.com/user-attachments/assets/4905e891-3d89-44dd-9afc-fa7a53eacbf1
 
 ## Technical Info
 
