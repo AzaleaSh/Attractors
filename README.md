@@ -70,7 +70,7 @@ This dominant frequency is very very fascinating! It could suggest that the osci
 
 Soooo, what could this frequency relate to? Since the trajectories are orbiting around the two attractors of the butterfly attractor and switching between the lobes, this peak frequency could likely correspond to the average frequency of these orbital motions or the switching frequency between the lobes. This is very very interesting, especially given that the system itself is entirely chaotic! So how in the world could there possibly exist any type of periodic motion? I don't know, I have plans to look at this closer specifically by variable, also seeing how the coeffecients effect this, as it is known that some combinations of coeffiecents can yield periodic or quasiperiodic behaviors.
 
-A quick note: I did test a few variables to ensure this was not an experimental error. I am not quite sure what this is.
+A quick note: I did test a few variables to ensure this was not an experimental error. I am not quite sure what this is. It does seem to have a relation to the coefficients but I am not sure what that is or entails.
 
 ## The Halvorsen System
 
