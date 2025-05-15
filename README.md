@@ -16,6 +16,10 @@ The animation then shows both trajectories evolving simultaneously from the "rou
 
 The key visual takeaway is that while the pink and green paths branches off from the same point, because of the chaotic nature of the Lorenz system, that tiny initial difference (the rounding) is rapidly amplified, causing the pink trajectory to diverge significantly from the green trajectory over time. This visual separation is a direct demonstration of sensitivity to initial conditions.
 
+## The video files!
+
+In this repository there are two video files: of course the Lorenz attractor, and I have also included the Halvorsen attractor, which is modeled using a different set of dynamical systems, where the only change was a different 'def lorenz_system(state)'. So I guess you could say this code is modular.
+
 ## Technical Info
 
 * The `lorenz_system` function defines the differential equations with standard parameters ($\sigma=10, \rho=28, \beta=8/3$).
